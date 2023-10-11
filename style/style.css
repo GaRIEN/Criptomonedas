@@ -240,7 +240,6 @@ main {
   height: auto;
   margin-top: 15px;
   background-color: #201e1c;
-  
 }
 .main-product--logo {
   position: absolute;
@@ -295,7 +294,8 @@ main {
   margin-top: 10px;
   margin-left: 20px;
 }
-.fa-regular,.fa-dollar-sign {
+.fa-regular,
+.fa-dollar-sign {
   font-size: 2.3rem;
   color: var(--bitcoin-orange);
 }
@@ -315,17 +315,59 @@ main {
   line-height: 1.8rem;
   color: #808080;
 }
-.bitcoin-img-container{
+.bitcoin-img-container {
   width: 100%;
   min-width: 320px;
   height: 50vh;
   background: url("../assets/img/bitcoinbaby\ 1.svg") center/cover no-repeat;
   text-align: center;
 }
-.bitcoin-img-container h2{
+.bitcoin-img-container h2 {
   padding-top: 60px;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 26px;
   color: var(--just-white);
-} 
+}
+
+/*style precios*/
+.main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  margin-top: 40px;
+  background-color: var(--off-white);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.plans--title {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 50px;
+}
+.plans--title h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+.plans--title p {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.8rem;
+  color: #757575;
+}
+.plans-container--slider {
+  width: 190px;
+  margin: 0 auto;
+}
+.plans-container--card {
+  height: 247px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+}
