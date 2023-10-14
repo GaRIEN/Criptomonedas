@@ -361,8 +361,7 @@ main {
 }
 .plans-container--slider {
   display: flex;
-  align-items: center;
-  justify-content: center;
+align-items: center;
   height: 316px;
   width: 100%;
   overflow-x: scroll;
@@ -372,7 +371,7 @@ main {
 .plans-container--card {
   position: relative;
   scroll-snap-align: center;
-  margin: 0  auto;
+  margin: 0 auto 10px auto;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
