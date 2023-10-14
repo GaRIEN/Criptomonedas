@@ -214,8 +214,6 @@ main {
   border-radius: 0 0 15px 0;
 }
 
-.fa-chevron-right {
-}
 .currency-table--date {
   width: 200px;
   height: 40px;
@@ -336,7 +334,7 @@ main {
   min-width: 320px;
   height: auto;
   margin-top: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   background-color: var(--off-white);
   text-align: center;
 }
@@ -362,12 +360,23 @@ main {
   color: #757575;
 }
 .plans-container--slider {
-  width: 190px;
-  margin: 0 auto;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 316px;
+  width: 100%;
+  overflow-x: scroll;
+  overscroll-behavior-x:contain;
+  scroll-snap-type: x proximity;
 }
 .plans-container--card {
-  height: 247px;
+  position: relative;
+  scroll-snap-align: center;
+  margin: 0  auto;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
   border-radius: 8px;
   box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
 }
@@ -413,7 +422,7 @@ main {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: normal;
- vertical-align: 25px;
+  vertical-align: 25px;
 }
 .information-ahorro {
   width: 80%;
