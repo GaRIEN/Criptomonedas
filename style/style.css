@@ -361,11 +361,13 @@ main {
 }
 .plans-container--slider {
   display: flex;
-align-items: center;
+  align-items: center;
+  padding: 0 30px;
+  gap: 30px;
   height: 316px;
   width: 100%;
   overflow-x: scroll;
-  overscroll-behavior-x:contain;
+  overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
 .plans-container--card {
@@ -449,4 +451,40 @@ align-items: center;
 .fa-arrow-right {
   font-size: 1.6rem;
   color: var(--bitcoin-orange);
+}
+
+
+/*footer*/
+footer {
+  display: flex;
+  width: 100%; 
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+footer section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.left ul{
+  font-size: 1.4rem;
+font-weight: 500;
+line-height: 1.8rem;
+list-style: none;
+}
+.left li{
+margin: 10px 0;
+}
+.left ul a{
+text-decoration: none;
+  color: var(--just-white);
+}
+.right{
+  width: 50%;
+  align-self: center;
+}
+.right img{
+width: 70px;
+height: 60px;
 }
